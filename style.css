@@ -9,17 +9,3 @@ li {
 #task-list{
     margin-right: 20px;
 }
-.delete-btn {
-  background-color: transparent;
-  border: none;
-  color: red;
-  font-size: 1.2rem;
-  cursor: pointer;
-  margin-left: 10px;
-  transition: transform 0.2s ease, color 0.2s ease;
-}
-
-.delete-btn:hover {
-  color: darkred;
-  transform: scale(1.2);
-}
