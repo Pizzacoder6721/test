@@ -36,6 +36,7 @@ function addTaskToDOM(task) {
         tasks = tasks.filter(t => t !== task);
         saveTasks();
         li.remove();
+        delBtn.style.margin-left: 25px;
     });
 
     li.appendChild(delBtn);
@@ -43,4 +44,5 @@ function addTaskToDOM(task) {
 }
 function saveTasks() {
     localStorage.setItem("tasks", JSON.stringify(tasks));
+
 }
